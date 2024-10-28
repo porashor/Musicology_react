@@ -1,0 +1,125 @@
+
+@media (max-width: 890px) {
+    .hero{
+        height: 60vh;
+    }
+}
+@media (max-width: 790px) {
+    .hero{
+        height: 500px;
+    }
+    .hero_container{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        justify-content: center;
+    }
+    .testimonial_list, .pricing_list, .foother_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+@media (max-width: 550px){
+    .subscribe_item{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .subscribe_item_email{
+        width: 80%;
+        margin:  0 auto;
+    }
+    .statistic_list{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 435px) {
+    .logo img{
+        height: 30px;
+    }
+    .nav_list{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .hero{
+        height: 400px;
+    }
+    .hero_container{
+        display: flex;
+    }
+    .hero_tile{
+        font-size: 30px;
+    }
+    .hero_para{
+        font-size: 12px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .testimonial{
+        padding: 2rem 0;
+    }
+    .testimonial_header, .pricing_header, .statistic_header, .subscribe_header{
+        font-size: 30px;
+        padding: 0.5rem 0;
+    }
+    .testimonial_sub_header, .pricing_sub_header, .statistic_sub_header, .subscribe_sub_header{
+        width: 250px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .testimonial_list, .pricing_list{
+        flex-direction: column;
+    }
+    .practise_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .practise_details{
+        padding: 2rem 0;
+    }
+    .practise_details_title{
+        font-size: 30px;
+    }
+    .statistic_list{
+        flex-direction: column;
+    }
+    .statistic_item{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        padding: 1rem 0 ;
+    }
+    .statistic_item_title{
+        font-size: 25px;
+    }
+    .statistic_item_number{
+        font-size: 35px;
+    }
+    .subscribe{
+        padding: 2rem 0;
+    }
+    .subscribe_item{
+        width: 330px;
+    }
+    .subscribe_item_btn{
+        font-size: 20px;
+        width: 40%;
+    }
+    .foother{
+        padding: 3rem 0;
+        background-color: var(--nav-bg);
+    }
+    .foother_container{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+}
